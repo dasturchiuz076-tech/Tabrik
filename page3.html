@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bularning hammasi hazil 🎉</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #fff0f5, #ffe4e1);
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      color: #333;
+      padding: 50px 20px;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      color: #ff4081;
+      font-size: 2rem;
+      animation: fadeIn 1.5s ease;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 15px;
+      color: #444;
+      animation: fadeIn 2s ease;
+    }
+
+    img {
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      margin-top: 30px;
+      border: 5px solid #ff80ab;
+      box-shadow: 0 0 20px rgba(255, 64, 129, 0.4);
+      animation: popIn 1.2s ease;
+      object-fit: cover;
+    }
+
+    button {
+      background: #ff69b4;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 30px;
+      color: white;
+      font-size: 1rem;
+      margin-top: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #ff1493;
+      transform: scale(1.08);
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes popIn {
+      0% {transform: scale(0);}
+      80% {transform: scale(1.1);}
+      100% {transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+  <h1>😂 Bularning hammasi hazil edi!</h1>
+  <p>Endi esa chin dildan aytaman...</p>
+  <h1 style="margin-top:20px;">🎂 Tug‘ilgan kuning bilan tabriklayman! 🎉</h1>
+
+  <!-- 🔽 Shu yerga o‘sha odamning rasmi -->
+  <img src="rasm.jpg" alt="Tug‘ilgan kun egasi rasmi">
+
+  <br>
+  <button onclick="nextPage()">🎶 Tabrikni o‘qish</button>
+
+  <script>
+    function nextPage() {
+      window.location.href = "page4.html";
+    }
+  </script>
+</body>
+</html>
